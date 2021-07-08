@@ -20,9 +20,9 @@ public class TestProblem1 {
 
     /**
      * <pre>
-     * given List of Integers = {23,12,44,42,41,3,9} and target = 86
+     * given List of Integers = {0,1,2,7,8,7,3} and target = 5
      * expected:
-     *      resultPair.left==3
+     *      resultPair.left==6
      *      resultPair.right==2
      * </pre>
      */
@@ -41,7 +41,9 @@ public class TestProblem1 {
      * </pre>
      */
     @Test
-    public void testCase3(){
+    public void testCase3() {
 
     }
+
+
 }
