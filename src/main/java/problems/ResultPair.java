@@ -1,12 +1,12 @@
 package problems;
 
-public class ResultPair {
+public class ResultPair<L, R> {
 
-    public ResultPair(int left, int right){
+    public ResultPair(L left, R right){
         this.left = left;
         this.right = right;
     }
 
-    public int left;
-    public int right;
+    public L left;
+    public R right;
 }

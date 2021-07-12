@@ -12,11 +12,11 @@ package problems;
  * Given a "List of Integers" and a "target Integer", find two Integers from that list that add up to the given target Integer.
  * Return a "ResultPair" that contains the indices of these two integers.
  *
- *
+ * 3. Complete the test cases that are specified in TestProblem1 test class.
  */
-public class Problem1 implements IProblem<> {
+public class Problem1 { //implements IProblem<> {
 
-    ResultPair solution;
+    ResultPair result;
 
     //TODO: resolve compilation errors
 
